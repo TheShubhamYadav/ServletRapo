@@ -16,5 +16,8 @@
 	<classpathentry kind="lib" path="C:/Users/Nareshit/Downloads/commons-io-2.4 (1).jar"/>
 	<classpathentry kind="lib" path="C:/Users/Nareshit/Downloads/postgresql-42.3.3.jar"/>
 	<classpathentry kind="lib" path="G:/Softwares/UnConventional DB JDBC Drivers/text/lib/Text_JDBC30.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Nareshit/Downloads/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Nareshit/Downloads/HikariCP-5.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Nareshit/Downloads/slf4j-simple-1.7.36.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

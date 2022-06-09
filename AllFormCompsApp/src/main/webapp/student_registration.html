@@ -1,0 +1,123 @@
+
+
+ <h1 style="color:red;text-align:center"> Student Registration Details</h1>
+ 
+  <form action="registrationurl" method="POST">
+    <table  border="0" bgcolor="cyan"  align="center">
+      <tr>
+            <td> Student name ::  </td>
+            <td> <input type="text"  name="sname"></td>
+      </tr>
+      <tr>
+         <td> Student address ::  </td>
+           <td> 
+              <textarea  name="sadd"  rows="5" cols="10">
+                     enter address
+              </textarea>
+           </td>
+      </tr>
+      <tr>
+          <td> Gender :: </td>
+           <td>
+                     <input type="radio" name="gender" value="M" > Male  &nbsp;
+                     <input type="radio" name="gender" value="F"  checked > FeMale  &nbsp;              
+         </td>
+      </tr>
+      <tr>
+      <td> Mobile Number </td>
+        <td>   <input type="tel" name="contactNo"  >         </td>
+      </tr>
+      
+      <tr>
+         <td> Email </td>
+        <td>   <input type="email" name="email"  >      </td>
+      </tr>
+      
+        <tr>
+         <td> Qualification </td>
+        <td>
+                 <select name="qlfy" >
+                      <option  value="">---SELECT--- </option>
+                      <option  value="engg">B.E/B.Tech </option>
+                      <option  value="medico">MBBS </option>
+                      <option  value="arts">BA-MA </option>
+                      <option  value="commerce">B.com/M.com/CA </option>
+                 </select>  
+         </td>
+      </tr>
+        <tr>
+         <td> Hobies:: </td>
+         <td>  
+                 <input type="checkbox" name="hb"  value="reading"> Reading Books  &nbsp;
+                 <br>
+                <input type="checkbox" name="hb"  value="watching" checked> Watching TV  &nbsp;
+                <br>
+                 <input type="checkbox" name="hb"  value="roaming"> Travelling  &nbsp;
+                    <br>
+                 <input type="checkbox" name="hb"  value="sports"> Playing Games  &nbsp;
+          </td>
+          </tr>
+      <tr>
+         <td>           Favorite colours  ::       </td>   
+         <td> 
+                    <select   name="favColors"  multiple >
+                          <option value="yellow"> YELLOW</option>
+                          <option value="red"> RED </option>
+                          <option value="blue"> BLUE </option>
+                          <option value="black"> BLACK </option>
+                          <option value="pink"> PINK </option>
+                    </select>
+          </td>
+      </tr>
+      <tr>
+           <td> Pet Name:: </td>
+           <td><input type="password" name="petname"></td>
+      </tr>
+      
+      <tr>
+           <td> DOB(Date of Birth)::  </td>
+           <td> <input type="date" name="dob"> </td>
+      </tr>
+      <tr>
+           <td> TOB(Time of Birth)::  </td>
+           <td> <input type="time" name="tob"> </td>
+      </tr>
+      
+      <tr>
+           <td> Month of Birth::  </td>
+           <td> <input type="month" name="mob"> </td>
+      </tr>
+      
+      <tr>
+           <td> Week   name of Birth::  </td>
+           <td> <input type="week" name="wob"> </td>
+      </tr>
+      <tr>
+           <td> Sentiment color:  </td>
+           <td> <input type="color" name="color"> </td>
+      </tr>
+      <tr>
+            <td> FB url:  </td>
+           <td> <input type="url" name="fburl"> </td>
+      </tr>
+      
+      <tr>
+            <td> Exprected salary::   </td>
+           <td> <input type="range" name="salrange" min="100000"  max="100000000" > </td>
+      </tr>
+      
+      <tr>
+           <td> Google search string :: </td>
+            <td> <input type="search"  name="ss"> </td>
+      </tr>
+      <tr>
+           <td>  Favorite Number:: </td>
+            <td> <input type="number"  name="favNo" min="1"  max="9"> </td>
+      </tr>
+      <tr>
+          <td> <input type="submit" value="register student"> </td>
+          <td>    <input type="reset" value="cancel"> </td>  
+      </tr>
+    </table>
+  
+  </form>

@@ -4,4 +4,12 @@
   <welcome-file-list>
     <welcome-file>student_registration.html</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <servlet-name>stud</servlet-name>
+    <servlet-class>com.nt.servlet.StudentDataAnalyzerServlet</servlet-class>  
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>stud</servlet-name>
+     <url-pattern>/registrationurl</url-pattern>
+  </servlet-mapping>
 </web-app>

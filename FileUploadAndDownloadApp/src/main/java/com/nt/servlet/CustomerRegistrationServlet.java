@@ -21,6 +21,7 @@ import javazoom.upload.UploadParameters;
 @WebServlet("/customerurl")
 public class CustomerRegistrationServlet extends   HttpServlet{
 	 private static final String  INSERT_SQL_QUERY="INSERT INTO  UPLOAD_CUSTOMER_TAB VALUES(CUST_SEQ.NEXTVAL,?,?,?,?)";
+	 
 	
 	 @Override
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {

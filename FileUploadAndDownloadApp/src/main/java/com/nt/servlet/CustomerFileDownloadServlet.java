@@ -6,6 +6,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -73,6 +74,7 @@ public class CustomerFileDownloadServlet extends HttpServlet{
 			   InputStream is=new FileInputStream(file);
 			   //create output stream pointing to   response obj
 			   OutputStream os=res.getOutputStream();  //byte stream
+					PrintWriter pw=res.getWriter();
 					){
 			   //make the browser to display the recieved response content as downloadable file
 			    res.setHeader("Content-Disposition","attachment;fileName="+file.getName());
